@@ -3,7 +3,7 @@ let HOST;
 if(process.env.NODE_ENV  === 'development'){
 	HOST = '/data_api/api/v1';
 }else{
-	HOST = 'http://www.cocheer.net/main-vue/api/v1'; //愤怒的小鸟公众号后台服务
+	HOST = 'xxx/api/v1';
 }
 const TEST_SERVER = 'http://dev.cocheer.cn/cloud/cocheer'
 export const getRecommend = (source = 1,category = '',page = 1,limit = 20) => {
