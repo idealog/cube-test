@@ -5,7 +5,7 @@ if(process.env.NODE_ENV  === 'development'){
 }else{
 	HOST = 'xxx/api/v1';
 }
-const TEST_SERVER = 'http://dev.cocheer.cn/cloud/cocheer'
+const TEST_SERVER = 'xxxcloud/xxx'
 export const getRecommend = (source = 1,category = '',page = 1,limit = 20) => {
 	const url = `${HOST}/qly/recommend`
 	const method = 'get'
